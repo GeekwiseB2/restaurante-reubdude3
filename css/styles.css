@@ -1,0 +1,70 @@
+/* global styles */
+p{
+  font-family: 'Raleway',sans-serif;
+  font-weight: 300;
+}
+/* end global styles */
+/* navbar styles */
+.navbar-default{
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,{
+     color: #fff;
+     background-color:rgba(17 ,17 17, .5);
+     .na
+   }
+/* end navbar styles */
+
+.carousel-inner .item{
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-caption{
+  padding-bottom: 150px;
+
+}
+.first-slide{
+  background-image: url('../img/wood-2.jpg');
+}
+.slide-logo{
+  max-height: 300px;
+}
+.second-slide{
+  background-image: url('../img/restaurant-2.jpg');
+}
+.third-slide{
+  background-image: url(../img/farm-2.jpg);
+}
+/* out story styles */
+#our_story{
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+#our_story h1{
+  font-family: 'Lobster',cursive;
+  color: #f8512f;
+  font-size:6em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+
+
+}
+#our_story h2{
+  font-family: 'Playfair Display' ,serif;
+  font-weight: 700;
+  font-size: 12em;
+  color: rgba(149, 147, 147, 0.2);
+  position: absolute;
+  z-index: -1;
+
+}
+#our_story h3{
+font-family: 'Raleway',sans-serif;
+font-weight: 700;
+font-size: 2em;
+margin-top: 0;
+}
